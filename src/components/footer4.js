@@ -83,7 +83,7 @@ const Footer4 = (props) => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2024 TeleportHQ</span>
+              <span className="thq-body-small">© 2024 Trilli On Financial Suite</span>
             </div>
             <div className="footer4-footer-links">
               <span className="footer4-text11 thq-body-small">
@@ -122,9 +122,9 @@ Footer4.defaultProps = {
   termsLink: undefined,
   link2: undefined,
   link4: undefined,
-  logoAlt: 'Neo trill ao logo',
+  logoAlt: 'https://cdn.builder.io/api/v1/image/assets/TEMP/a618eeca7bec3840d12dc2b2400a4228f47af59067ff4be5dc9b77ea7f21b2f0?apiKey=07b7466444764966b3e325d12cdd6280&',
   cookiesLink: undefined,
-  logoSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
+  logoSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/a618eeca7bec3840d12dc2b2400a4228f47af59067ff4be5dc9b77ea7f21b2f0?apiKey=07b7466444764966b3e325d12cdd6280&",
   privacyLink: undefined,
 }
 

@@ -23,14 +23,14 @@ const Navbar8 = (props) => {
             >
               {props.link1 ?? (
                 <Fragment>
-                  <span className="navbar8-text18">#home</span>
+                  <span className="navbar8-text18">3D Blockchain</span>
                 </Fragment>
               )}
             </a>
             <a href={props.link2Url} className="thq-link thq-body-small">
               {props.link2 ?? (
                 <Fragment>
-                  <span className="navbar8-text16">#trillion-bank</span>
+                  <span className="navbar8-text16">Trilli On Bank</span>
                 </Fragment>
               )}
             </a>
@@ -42,7 +42,14 @@ const Navbar8 = (props) => {
             >
               {props.link3 ?? (
                 <Fragment>
-                  <span className="navbar8-text24">#digital-wallet</span>
+                  <span className="navbar8-text24">Trilli On-It Wallet</span>
+                </Fragment>
+              )}
+            </a>
+            <a href={props.link2Url} className="thq-link thq-body-small">
+              {props.link2 ?? (
+                <Fragment>
+                  <span className="navbar8-text16">Tri Fone</span>
                 </Fragment>
               )}
             </a>
@@ -53,7 +60,7 @@ const Navbar8 = (props) => {
               <span className="thq-link thq-body-small">
                 {props.link4 ?? (
                   <Fragment>
-                    <span className="navbar8-text21">#payment-gateway</span>
+                    <span className="navbar8-text21">Trilli Pay</span>
                   </Fragment>
                 )}
               </span>
@@ -462,20 +469,20 @@ const Navbar8 = (props) => {
 }
 
 Navbar8.defaultProps = {
-  linkUrlPage4: 'https://www.teleporthq.io',
-  link2Url: 'https://www.teleporthq.io',
+  linkUrlPage4: '/',
+  link2Url: '/',
   page4Description: undefined,
   page1ImageSrc:
     'https://images.unsplash.com/photo-1693596792338-12ea13f7beb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDc1NjE3NHw&ixlib=rb-4.0.3&q=80&w=1080',
   action1: undefined,
   page2ImageAlt: 'image',
   link2: undefined,
-  linkUrlPage2: 'https://www.teleporthq.io',
+  linkUrlPage2: '/',
   logoAlt: 'Neo trill ao Logo',
   logoSrc:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
+    'https://cdn.builder.io/api/v1/image/assets/TEMP/a618eeca7bec3840d12dc2b2400a4228f47af59067ff4be5dc9b77ea7f21b2f0?apiKey=07b7466444764966b3e325d12cdd6280&',
   page3ImageAlt: 'image',
-  linkUrlPage1: 'https://www.teleporthq.io',
+  linkUrlPage1: '/',
   page1: undefined,
   link1: undefined,
   page4ImageSrc:
@@ -493,11 +500,11 @@ Navbar8.defaultProps = {
   page2Description: undefined,
   link3: undefined,
   page3: undefined,
-  link1Url: 'https://www.teleporthq.io',
+  link1Url: '/',
   page3Description: undefined,
   page1ImageAlt: 'image',
   action2: undefined,
-  link3Url: 'https://www.teleporthq.io',
+  link3Url: '/',
 }
 
 Navbar8.propTypes = {

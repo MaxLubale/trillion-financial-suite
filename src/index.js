@@ -1,26 +1,31 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from 'react-router-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-import './style.css'
-import Home from './views/home'
-import NotFound from './views/not-found'
+import './style.css';
+import Home from './views/home';
+import NotFound from './views/not-found';
+import Trifone from './components/trifone';
+import TrillionBank from './components/trillionbank';
+import Trillionit from './components/trillionit';
+import Trillipay from './components/trillipay';
+import Blokchain from './components/blockchain';
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Switch>
-        <Route component={Home} exact path="/" />
-        <Route component={NotFound} path="**" />
+        <Route exact path="/" component={Home} />
+        <Route path="/trillipay" component={Trillipay} />
+        <Route path="/trillionbank" component={TrillionBank} />
+        <Route path="/trifone" component={Trifone} />
+        <Route path="/blokchain" component={Blokchain} />
+        <Route path="/trillionit" component={Trillionit} />
+        <Route component={NotFound} />
         <Redirect to="**" />
       </Switch>
-    </Router>
-  )
+    </BrowserRouter>
+  );
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'));
