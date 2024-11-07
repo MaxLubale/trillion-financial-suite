@@ -30,24 +30,7 @@ function Header({ title }) {
 function NavBar({ isSignedIn, handleLogin, handleLogout }) {
   return (
     <nav className="flex gap-5 justify-between items-center w-full max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
-      <Link to="/" className="text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-white">NEO TRILLI AO</Link>
-      <div className="flex gap-5 items-center">
-        <Link to="/" className="text-2xl text-white">Home</Link>
-        <a
-          href="#products"
-          onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
-          className="text-2xl font-semibold text-fuchsia-700 bg-zinc-100 px-7 py-3 rounded-full shadow max-md:px-5"
-        >
-          Products
-        </a>
-        <Link to="/profile" className="text-2xl text-white">Profile</Link>
-        <button
-          onClick={isSignedIn ? handleLogout : handleLogin}
-          className="text-2xl text-white"
-        >
-          {isSignedIn ? 'Log Out' : 'Log In'}
-        </button>
-      </div>
+     
     </nav>
   );
 }
