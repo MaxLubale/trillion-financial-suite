@@ -50,8 +50,8 @@ function TrillionBank() {
         </header>
 
         <main style={{ marginTop: '5rem', width: '100%' }}>
-          <section style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '30px', flexWrap: 'wrap' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90%' }}>
+          <section style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '70px', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '25%' }}>
               <VideoComponent
                 src="https://trillion-funding-fqgv.onrender.com/uploads/bank.mp4"
                 className="self-stretch w-full aspect-[1.16] max-md:max-w-full"
@@ -60,7 +60,10 @@ function TrillionBank() {
 
             
   <p style={{ fontSize: '1.6rem', lineHeight: '1.6', color: '#e0e0e0', padding: '15px', borderRadius: '8px', textAlign: 'justify' }}>
-    TRILLI ON BANK is the World's First & Only Independent Indigenous Digital Bank. A Bank that has no monthly Fees, a Digital Bank Card Housed into its little Sister Trilli On It Money Wallet, as well as Features like Interest Free Loans for Indigenous Peoples Globally. TRILLI ON BANK is a Global Life Changer for Indigenous Peoples on a Level never seen Before!!!! Like all of the Trillion Dollar Digital Financial Suite, it is hashed into the Unprecedented Unhackable 3D BLOKCHAIN, that grants its 3D Cymatic Lattice, A.I Spindle Inner Cell, Vortex Harmonic Frequency Phasing Blockchain Technology never seen before A.I Encryption Security Consolidation. These BIODIGICHEMWARE Qualities & Characteristics combined in Seamless Synchronisation with TRI FONE grant TRILLI ON BANK Decentralised Capabilities that can never be tampered with or hacked, and therefore render TRILLI ON BANK BIODIGITALLY SUPREME. BIODIGICHEMWARE in Crystalised Conjunction with HYBRID CHAMELEON HARDWARE is an Unprecedented Unhackable Age of Aquarius Knowledge & New Dawn Application espoused to the World as Piramyd Technology. These otherworldly Technologies grant TRILLI ON BANK unprecedented Financial Privileges to Indigenous Communities WorldWide via both Unhackable Financial Asset Security & Unhackable Personal Data Protection.
+    TRILLI ON BANK is the World's First & Only Independent Indigenous Digital Bank. A Bank that has no monthly Fees, a Digital Bank Card Housed into its little Sister Trilli On It Money Wallet, as well as Features like Interest Free Loans for Indigenous Peoples Globally.
+    <br></br>    <br></br>
+
+    TRILLI ON BANK is a Global Life Changer for Indigenous Peoples on a Level never seen Before!!!! Like all of the Trillion Dollar Digital Financial Suite, it is hashed into the Unprecedented Unhackable 3D BLOKCHAIN, that grants its 3D Cymatic Lattice, A.I Spindle Inner Cell, Vortex Harmonic Frequency Phasing Blockchain Technology never seen before A.I Encryption Security Consolidation. These BIODIGICHEMWARE Qualities & Characteristics combined in Seamless Synchronisation with TRI FONE grant TRILLI ON BANK Decentralised Capabilities that can never be tampered with or hacked, and therefore render TRILLI ON BANK BIODIGITALLY SUPREME. BIODIGICHEMWARE in Crystalised Conjunction with HYBRID CHAMELEON HARDWARE is an Unprecedented Unhackable Age of Aquarius Knowledge & New Dawn Application espoused to the World as Piramyd Technology. These otherworldly Technologies grant TRILLI ON BANK unprecedented Financial Privileges to Indigenous Communities WorldWide via both Unhackable Financial Asset Security & Unhackable Personal Data Protection.
   </p>
 
 
