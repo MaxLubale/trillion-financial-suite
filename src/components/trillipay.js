@@ -65,21 +65,20 @@ function Trillipay() {
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '0 20px' }}>
-        <header style={{ paddingLeft: '1.5rem', marginTop: '2rem', backgroundImage: 'linear-gradient(to right, purple, white)', backgroundClip: 'text', color: 'transparent' }}>
+        <header style={{ paddingLeft: '4.5rem', marginTop: '2rem', backgroundImage: 'linear-gradient(to right, purple, white)', backgroundClip: 'text', color: 'transparent' }}>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '600' }}>Trilli Pay</h1>
         </header>
 
-        <main style={{ marginTop: '5rem', width: '100%' }}>
-          <section 
-            style={{ 
-              display: 'flex', 
-              flexDirection: 'row', 
-              alignItems: 'center', 
-              gap: '70px', 
-              flexWrap: 'wrap' 
-            }}
-          >
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '25%' }}>
+        <main style={{ marginTop: '5rem', width: '97%' }}>
+        <section
+    style={{
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: '50px',
+      flexWrap: 'wrap',
+    }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '30 %' }}>
               <VideoComponent 
                 src="https://trillion-funding-fqgv.onrender.com/uploads/trillipay.mp4" 
                 className="self-stretch w-full aspect-[1.16] max-md:max-w-full" 
@@ -90,7 +89,7 @@ function Trillipay() {
                 fontSize: '1.6rem',
                 lineHeight: '1.6',
                 color: '#e0e0e0',
-                padding: '15px',
+                padding: '20px',
                 borderRadius: '8px',
                 textAlign: 'justify',
               }}>
