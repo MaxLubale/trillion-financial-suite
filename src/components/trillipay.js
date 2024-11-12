@@ -75,11 +75,11 @@ function Trillipay() {
               display: 'flex', 
               flexDirection: 'row', 
               alignItems: 'center', 
-              gap: '30px', 
+              gap: '70px', 
               flexWrap: 'wrap' 
             }}
           >
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90%' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '25%' }}>
               <VideoComponent 
                 src="https://trillion-funding-fqgv.onrender.com/uploads/trillipay.mp4" 
                 className="self-stretch w-full aspect-[1.16] max-md:max-w-full" 
@@ -95,41 +95,15 @@ function Trillipay() {
                 textAlign: 'justify',
               }}>
                 A Payment Gateway that Benefits Indigenous Peoples Globally. Every Transaction only costs 1 cent USD & every 3 cents worth of Transactions will reward you with 1 Minted Peizo of TrilliOn Krypto Kurrency. TRILLI PAY is the most cost-effective Payment Gateway in the World, and every cent goes towards substantiating Interest-Free Loans for Indigenous Peoples Globally via TRILLI ON BANK.
-              </p>
-              <p style={{
-                fontSize: '1.6rem',
-                lineHeight: '1.6',
-                color: '#e0e0e0',
-                padding: '15px',
-                borderRadius: '8px',
-                textAlign: 'justify',
-              }}>
+                <br></br>                <br></br>
+
                 TRILLI PAY is a BIODIGICHEMWARE, which means it can traverse outdated current technologies, and simultaneously seamlessly travelling inside the Future of A.I Cellular Quantum PIRAMYD 3D Cymatic Lattice Technology that is HYBRID CHAMELEON HARDWARE, the specifically designed outlier A.I Quantum Computing Hardware it was created for. No other Digital Financial Technologies can make the migration onto & into HYBRID CHAMELEON HARDWARE.
+                These otherworldly Technologies give unprecedented Financial Privileges to Indigenous Communities WorldWide via both Unhackable Financial Asset Security & Unhackable Personal Data Protection.
+                MONEY 4 MASSES is a reverberating slogan moniker perfect for the provisions that TRILLI PAY brings to Indigenous Peoples Globally.
+
               </p>
             
           </section>
-          
-    
-            <p style={{
-              fontSize: '1.6rem',
-              lineHeight: '1.6',
-              color: '#e0e0e0',
-              padding: '15px',
-              borderRadius: '8px',
-              textAlign: 'justify',
-            }}>
-              These otherworldly Technologies give unprecedented Financial Privileges to Indigenous Communities WorldWide via both Unhackable Financial Asset Security & Unhackable Personal Data Protection.
-            </p>
-            <p style={{
-              fontSize: '1.6rem',
-              lineHeight: '1.6',
-              color: '#e0e0e0',
-              padding: '15px',
-              borderRadius: '8px',
-              textAlign: 'justify',
-            }}>
-              MONEY 4 MASSES is a reverberating slogan moniker perfect for the provisions that TRILLI PAY brings to Indigenous Peoples Globally.
-            </p>
           
         </main>
       </div>

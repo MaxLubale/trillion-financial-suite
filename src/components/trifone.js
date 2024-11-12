@@ -51,8 +51,8 @@ function Trifone() {
         </header>
 
         <main style={{ marginTop: '5rem', width: '100%' }}>
-          <section style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '30px', flexWrap: 'wrap' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90%' }}>
+          <section style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '70px', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '25%' }}>
               <VideoComponent 
                 src="https://trillion-funding-fqgv.onrender.com/uploads/trifon.mp4" 
                 className="self-stretch w-full aspect-[1.16] max-md:max-w-full"
@@ -60,27 +60,19 @@ function Trifone() {
             </div>
 
             
-              <p style={{ fontSize: '1.4rem', lineHeight: '1.6', color: '#e0e0e0', padding: '15px', borderRadius: '8px', textAlign: 'justify' }}>
+              <p style={{ fontSize: '1.6rem', lineHeight: '1.6', color: '#e0e0e0', padding: '15px', borderRadius: '8px', textAlign: 'justify' }}>
                 The Global Game Changer in Mobile Phones that features HYBRID CHAMELEON HARDWARE capability to charge itself when left in the Sun & or the Moonlight!!!! Which means no-more Electricity requirements regardless of your location.
-              </p>
-              <p style={{ fontSize: '1.4rem', lineHeight: '1.6', color: '#e0e0e0', padding: '15px', borderRadius: '8px', textAlign: 'justify' }}>
                 In actual fact, NEO TRILLI AO are currently developing a Wireless Electricity Device that also simultaneously broadcasts both a Wireless I.T Network, and a Wireless Telecommunications Network that will make Data Coverage Limitless!!!! PEIZO Electricity is Non-Pernicious, which means it does not harm the body, in actual fact it does the complete opposite, it HEALS the Body!!!!
-              </p>
-              <p style={{ fontSize: '1.4rem', lineHeight: '1.6', color: '#e0e0e0', padding: '15px', borderRadius: '8px', textAlign: 'justify' }}>
+                <br></br>    <br></br>
+
                 As with all PEIZO Community & Commercial Products, "TRI" epitomises & consolidates the following 4 Security & Privacy Protection Provisions Globally for the Individual & Family alike.
                 Personal Privacy Protection Which means Peizo & Developers NEO TRILLI AO at no time whatsoever, sell your Personal Information to 3rd Party Operators. It also means that under no circumstances whatsoever do we disclose your Personal Information to Governments & or Authorities for their corrupt purposes!!
+                Your Geo Location is only ever recorded & monitored when you initiate TRAVEL SAFE APP. Your Video is only ever recorded & monitored when you initiate TRAVEL SAFE APP. Your Audio is only ever recorded & monitored when you initiate TRAVEL SAFE APP.
+                HYBRID CHAMELEON HARDWARE is an Unprecedented Unhackable Age of Aquarius Knowledge & New Dawn Application espoused to the World as Piramyd Technology. The otherworldly Technology present in TRI FONE grants unprecedented Financial Privileges to Indigenous Communities WorldWide via both Unhackable Financial Asset Security & Unhackable Personal Data Protection.
+
               </p>
             
           </section>
-
-          
-            <p style={{ fontSize: '1.4rem', lineHeight: '1.6', color: '#e0e0e0', padding: '15px', borderRadius: '8px', textAlign: 'justify' }}>
-              Your Geo Location is only ever recorded & monitored when you initiate TRAVEL SAFE APP. Your Video is only ever recorded & monitored when you initiate TRAVEL SAFE APP. Your Audio is only ever recorded & monitored when you initiate TRAVEL SAFE APP.
-            </p>
-
-            <p style={{ fontSize: '1.4rem', lineHeight: '1.6', color: '#e0e0e0', padding: '15px', borderRadius: '8px', textAlign: 'justify' }}>
-              HYBRID CHAMELEON HARDWARE is an Unprecedented Unhackable Age of Aquarius Knowledge & New Dawn Application espoused to the World as Piramyd Technology. The otherworldly Technology present in TRI FONE grants unprecedented Financial Privileges to Indigenous Communities WorldWide via both Unhackable Financial Asset Security & Unhackable Personal Data Protection.
-            </p>
       
         </main>
       </div>
