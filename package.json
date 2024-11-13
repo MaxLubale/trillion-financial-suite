@@ -14,8 +14,8 @@
     "react-router-dom": "^5.3.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
+    "start": "npm start",
+    "build": "npm  run build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
   },
