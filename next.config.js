@@ -4,7 +4,7 @@ module.exports = {
     webpack: (config) => {
       config.resolve.alias = {
         ...config.resolve.alias,
-        '@views': path.join(__dirname, 'views'),  // Alias for the views folder
+        '@views': path.join(__dirname, 'pages'),  // Alias for the views folder
       };
       return config;
     },
