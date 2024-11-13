@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import './style.css';
-import Home from './views/home';
-import NotFound from './views/not-found';
+import Home from './pages/home';
+import NotFound from './pages/not-found';
 import Trifone from './components/trifone';
 import TrillionBank from './components/trillionbank';
 import Trillionit from './components/trillionit';
