@@ -1,12 +1,12 @@
 // next.config.js
+const path = require('path');  // Optional if you still need path functions
+
 module.exports = {
-    pageExtensions: ['js', 'jsx', 'ts', 'tsx'],  // Standard file extensions
-    webpack: (config) => {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        '@views': path.join(__dirname, 'pages'),  // Alias for the views folder
-      };
-      return config;
-    },
-  };
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx'],  // Standard file extensions
+  webpack: (config) => {
+    // No need for alias anymore if your pages directory is named 'pages'
+    return config;
+  },
+};
+
   
