@@ -10,6 +10,7 @@ import TrillionBank from './components/trillionbank';
 import Trillionit from './components/trillionit';
 import Trillipay from './components/trillipay';
 import Blokchain from './components/blockchain';
+import Pay from './components/pay';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/trifone" component={Trifone} />
         <Route path="/blokchain" component={Blokchain} />
         <Route path="/trillionit" component={Trillionit} />
+        <Route path="/pay" component={Pay} />
         <Route component={NotFound} />
         <Redirect to="**" />
       </Switch>

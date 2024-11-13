@@ -1,4 +1,5 @@
 import React, { useState, Fragment } from 'react'
+import { Link } from 'react-router-dom';
 
 import PropTypes from 'prop-types'
 
@@ -10,11 +11,13 @@ const Navbar8 = (props) => {
   return (
     <header className="navbar8-container1">
       <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
+      <Link to="/">
         <img
           alt={props.logoAlt}
           src={props.logoSrc}
           className="navbar8-image1"
         />
+      </Link>
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
             <a
@@ -36,8 +39,6 @@ const Navbar8 = (props) => {
             </a>
             <a
               href={props.link3Url}
-              target="_blank"
-              rel="noreferrer noopener"
               className="navbar8-link31 thq-link thq-body-small"
             >
               {props.link3 ?? (
@@ -46,7 +47,7 @@ const Navbar8 = (props) => {
                 </Fragment>
               )}
             </a>
-            <a href={props.link2Url} className="thq-link thq-body-small">
+            <a href={props.link4Url} className="thq-link thq-body-small">
               {props.link2 ?? (
                 <Fragment>
                   <span className="navbar8-text16">Tri Fone</span>
@@ -60,7 +61,7 @@ const Navbar8 = (props) => {
               <span className="thq-link thq-body-small">
                 {props.link4 ?? (
                   <Fragment>
-                    <span className="navbar8-text21">Trilli Pay</span>
+                    <span className="navbar8-text21">MORE</span>
                   </Fragment>
                 )}
               </span>
@@ -87,7 +88,7 @@ const Navbar8 = (props) => {
               <span>
                 {props.action1 ?? (
                   <Fragment>
-                    <span className="navbar8-text15">Main Action</span>
+                    <span className="navbar8-text15">Login</span>
                   </Fragment>
                 )}
               </span>
@@ -96,7 +97,7 @@ const Navbar8 = (props) => {
               <span>
                 {props.action2 ?? (
                   <Fragment>
-                    <span className="navbar8-text27">Secondary Action</span>
+                    <span className="navbar8-text27">Logout</span>
                   </Fragment>
                 )}
               </span>
@@ -200,7 +201,7 @@ const Navbar8 = (props) => {
                             {props.page1Description ?? (
                               <Fragment>
                                 <span className="navbar8-text22">
-                                  Page One Description
+                                START THE JOURNEY WITH US
                                 </span>
                               </Fragment>
                             )}
@@ -229,7 +230,7 @@ const Navbar8 = (props) => {
                             {props.page2Description ?? (
                               <Fragment>
                                 <span className="navbar8-text23">
-                                  Page Two Description
+                                BIODIGITAL SUPREMACY
                                 </span>
                               </Fragment>
                             )}
@@ -258,7 +259,7 @@ const Navbar8 = (props) => {
                             {props.page3Description ?? (
                               <Fragment>
                                 <span className="navbar8-text26">
-                                  Page Three Description
+                                YOUR ASSETS IN ONE WALLET
                                 </span>
                               </Fragment>
                             )}
@@ -287,7 +288,7 @@ const Navbar8 = (props) => {
                             {props.page4Description ?? (
                               <Fragment>
                                 <span className="navbar8-text14">
-                                  Page Four Description
+                                INDIGENOUS FINANCIAL GATEWAY
                                 </span>
                               </Fragment>
                             )}
@@ -363,7 +364,7 @@ const Navbar8 = (props) => {
                       {props.page1Description ?? (
                         <Fragment>
                           <span className="navbar8-text22">
-                            Page One Description
+                          START THE JOURNEY WITH US
                           </span>
                         </Fragment>
                       )}
@@ -390,7 +391,7 @@ const Navbar8 = (props) => {
                       {props.page2Description ?? (
                         <Fragment>
                           <span className="navbar8-text23">
-                            Page Two Description
+                          First & Only Independent Indigenous Digital Bank
                           </span>
                         </Fragment>
                       )}
@@ -417,7 +418,7 @@ const Navbar8 = (props) => {
                       {props.page3Description ?? (
                         <Fragment>
                           <span className="navbar8-text26">
-                            Page Three Description
+                          YOUR ASSETS IN ONE WALLET
                           </span>
                         </Fragment>
                       )}
@@ -446,7 +447,7 @@ const Navbar8 = (props) => {
                       {props.page4Description ?? (
                         <Fragment>
                           <span className="navbar8-text14">
-                            Page Four Description
+                          INDIGENOUS FINANCIAL GATEWAY
                           </span>
                         </Fragment>
                       )}
@@ -469,15 +470,15 @@ const Navbar8 = (props) => {
 }
 
 Navbar8.defaultProps = {
-  linkUrlPage4: '/',
-  link2Url: '/',
+  linkUrlPage4: '/trillipay',
+  link2Url: '/trillionbank',
   page4Description: undefined,
   page1ImageSrc:
     'https://images.unsplash.com/photo-1693596792338-12ea13f7beb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDc1NjE3NHw&ixlib=rb-4.0.3&q=80&w=1080',
   action1: undefined,
   page2ImageAlt: 'image',
   link2: undefined,
-  linkUrlPage2: '/',
+  linkUrlPage2: '/trillionbank',
   logoAlt: 'Neo trill ao Logo',
   logoSrc:
     'https://cdn.builder.io/api/v1/image/assets/TEMP/a618eeca7bec3840d12dc2b2400a4228f47af59067ff4be5dc9b77ea7f21b2f0?apiKey=07b7466444764966b3e325d12cdd6280&',
@@ -487,7 +488,7 @@ Navbar8.defaultProps = {
   link1: undefined,
   page4ImageSrc:
     'https://images.unsplash.com/photo-1630464373688-fb6a37ce89ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDc1NjE3NXw&ixlib=rb-4.0.3&q=80&w=1080',
-  linkUrlPage3: 'https://www.teleporthq.io',
+  linkUrlPage3: '/trillionit',
   page4: undefined,
   page2: undefined,
   link4: undefined,
@@ -500,11 +501,12 @@ Navbar8.defaultProps = {
   page2Description: undefined,
   link3: undefined,
   page3: undefined,
-  link1Url: '/',
+  link1Url: '/blokchain',
   page3Description: undefined,
   page1ImageAlt: 'image',
   action2: undefined,
-  link3Url: '/',
+  link3Url: '/trillionit',
+  link4Url: '/trifone',
 }
 
 Navbar8.propTypes = {

@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Navbar8 from '../components/navbar8';
 import Hero17 from '../components/hero17';
@@ -14,32 +13,30 @@ import './home.css';
 
 // Importing individual pages for routing
 
-import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
-
 const Home = () => {
   return (
     
       <div className="home-container">
         <Helmet>
           <title>TRILLI ON FINANCIAL SUITE</title>
-          <meta property="og:title" content="Happy Joint Skunk" />
+          <meta property="og:title" content="TRILLI-ON FINANCIAL SUITE" />
         </Helmet>
 
         <Navbar8
-          page4Description={<span className="home-text100">Page Four Description</span>}
-          action1={<span className="home-text101">Main Action</span>}
+          page4Description={<span className="home-text100">INDIGENOUS FINANCIAL GATEWAY</span>}
+          action1={<span className="home-text101">Login</span>}
           link2={<span className="home-text102">Trilli On Bank</span>}
           page1={<span className="home-text103">Home</span>}
-          link1={<span className="home-text104">Home</span>}
+          link1={<span className="home-text104">3D Blockchain</span>}
           page4={<span className="home-text105">Payment Gateway</span>}
           page2={<span className="home-text106">3D Blockchain</span>}
-          link4={<span className="home-text107">Payment Gateway</span>}
-          page1Description={<span className="home-text108">Page One Description</span>}
-          page2Description={<span className="home-text109">Page Two Description</span>}
+          link4={<span className="home-text107">MORE</span>}
+          page1Description={<span className="home-text108">START THE JOURNEY WITH US</span>}
+          page2Description={<span className="home-text109">BIODIGITAL SUPREMACY</span>}
           link3={<span className="home-text110">Digital Wallet</span>}
           page3={<span className="home-text111">Digital Wallet</span>}
-          page3Description={<span className="home-text112">Page Three Description</span>}
-          action2={<span className="home-text113">Secondary Action</span>}
+          page3Description={<span className="home-text112">YOUR ASSETS IN ONE WALLET</span>}
+          action2={<span className="home-text113">Logout</span>}
         />
 
         <Hero17

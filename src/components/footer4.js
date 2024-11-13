@@ -18,9 +18,7 @@ const Footer4 = (props) => {
           </div>
           <div className="footer4-links">
             <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/trillionbank"
               className="thq-body-small"
             >
               {props.link1 ?? (
@@ -30,9 +28,7 @@ const Footer4 = (props) => {
               )}
             </a>
             <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/trillionit"
               className="thq-body-small"
             >
               {props.link2 ?? (
@@ -42,9 +38,7 @@ const Footer4 = (props) => {
               )}
             </a>
             <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/trillipay"
               className="thq-body-small"
             >
               {props.link3 ?? (
@@ -54,9 +48,7 @@ const Footer4 = (props) => {
               )}
             </a>
             <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/trifone"
               className="thq-body-small"
             >
               {props.link4 ?? (
@@ -66,14 +58,12 @@ const Footer4 = (props) => {
               )}
             </a>
             <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/blokchain"
               className="thq-body-small"
             >
               {props.link5 ?? (
                 <Fragment>
-                  <span className="footer4-text14">Blockchain System</span>
+                  <span className="footer4-text14">3D Blockchain</span>
                 </Fragment>
               )}
             </a>
@@ -83,7 +73,7 @@ const Footer4 = (props) => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2024 Trilli On Financial Suite</span>
+              <span className="thq-body-small">© 2024 TRILLI ON FINANCIAL SUITE</span>
             </div>
             <div className="footer4-footer-links">
               <span className="footer4-text11 thq-body-small">
