@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "@paypal/react-paypal-js": "^8.7.0",
-    "dangerous-html": "0.1.13",
     "next": "^12.1.10",
     "prop-types": "15.7.2",
     "react": "^17.0.2",
@@ -15,8 +13,9 @@
     "semver": "^7.6.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,9 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "react-scripts": "^5.0.1"
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import './services.css'; // Include this line to add custom CSS styles
 import { Link } from 'react-router-dom';
-import { URL } from "next/dist/compiled/@edge-runtime/primitives/url";
+
 
 export const Services = () => {
   const products = [
