@@ -12,6 +12,7 @@ import Trillipay from './components/trillipay';
 import Blokchain from './components/blockchain';
 import Pay from './components/pay';
 
+
 const App = () => {
   return (
     <BrowserRouter>

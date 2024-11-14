@@ -2,7 +2,7 @@ import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './features24.css'
+import './features24.module.css'
 
 const Features24 = (props) => {
   const [activeTab, setActiveTab] = useState(0)

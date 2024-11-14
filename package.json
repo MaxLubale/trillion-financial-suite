@@ -3,21 +3,23 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^7.1.0",
     "@paypal/react-paypal-js": "^8.7.0",
+    "dangerous-html": "^0.1.13",
     "next": "^12.1.10",
     "prop-types": "15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
     "semver": "^7.6.3"
   },
   "scripts": {
-    "start": "next start",
-    "build": "next build",
-    "dev": "next dev",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
   },
   "engines": {
     "node": ">=18.x"

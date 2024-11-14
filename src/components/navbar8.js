@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import PropTypes from 'prop-types'
 
-import './navbar8.css'
+import './navbar8.module.css'
 
 const Navbar8 = (props) => {
   const [link5AccordionOpen, setLink5AccordionOpen] = useState(false)

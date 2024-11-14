@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './contact10.css'
+import './contact10.module.css'
 
 const Contact10 = (props) => {
   return (

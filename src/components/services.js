@@ -1,5 +1,5 @@
 import React from "react";
-import './services.css'; // Include this line to add custom CSS styles
+import './services.module.css'; // Include this line to add custom CSS styles
 import { Link } from 'react-router-dom';
 
 

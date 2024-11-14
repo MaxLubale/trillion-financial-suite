@@ -2,7 +2,7 @@ import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './pricing14.css'
+import './pricing14.module.css'
 
 const Pricing14 = (props) => {
   const [isMonthly, setIsMonthly] = useState(true)

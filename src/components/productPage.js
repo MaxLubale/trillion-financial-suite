@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import './productpage.css'; // Importing the CSS for styling
+import './productpage.module.css'; // Importing the CSS for styling
 
 const ProductPage = () => {
     const history = useHistory();
